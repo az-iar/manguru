@@ -1,0 +1,22 @@
+{
+  "name": "manguru",
+  "version": "1.0.0",
+  "description": "Manguru",
+  "main": "index.php",
+  "keywords": [
+    "manguru"
+  ],
+  "authors": [
+    "Azri Ismail"
+  ],
+  "license": "MIT",
+  "homepage": "http://manguru.nl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
