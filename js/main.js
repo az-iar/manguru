@@ -12,4 +12,18 @@ jQuery(document).ready(function($){
         
         details.stop().animate({ height: 60, paddingTop: 10 }, 500 );
     });
+
+    /* Trim excerpt to few lines */
+
+    $('.post-grid .post .details .title, .blog-list .title ').dotdotdot({
+        height : 40
+    });
+
+    $('.post-grid .post .details .excerpt ').dotdotdot({
+        height : 80
+    });
+
+    $('.post-list .post .excerpt, .post-list .post .title ').dotdotdot({
+        height : 50
+    });
 });
